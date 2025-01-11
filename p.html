@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #container {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+        }
+
+        .button {
+
+            height: 50px;
+            width: 150px;
+            margin: 10px;
+            border-radius: 8px;
+        } 
+    </style>
     <title>BG-changer</title>
 </head>
-<body>
-   <button class="start_button">START</button>
-   <button class="stop_button">STOP</button>
+
+<body id="container">
+
+    <button class="button" id="startButton" type="submit">START</button>
+    <button class="button" id="stopButton" type="submit">STOP</button>
+
+    <script src="p.js"></script>
 </body>
+
 </html>
